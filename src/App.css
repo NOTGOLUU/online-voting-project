@@ -1,0 +1,21 @@
+/* src/App.css */
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+.form-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px; /* Space between forms */
+  width: 100%; /* Make it full width */
+  max-width: 800px; /* Limit the width */
+}
+
+h1 {
+  color: #333; /* A darker color for the heading */
+  margin-bottom: 20px;
+  text-align: center;
+}
